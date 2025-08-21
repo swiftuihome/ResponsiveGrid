@@ -1,8 +1,107 @@
+# Xcode
 .DS_Store
-/.build
-/Packages
-xcuserdata/
-DerivedData/
+*/xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+Packages/
+*.xcodeproj
+.xcode/
+.swiftpm/
+
+# Build
+build/
+*.o
+*.a
+*.dylib
+*.framework
+*.swiftmodule
+
+# Swift
+*.swiftdoc
+*.swiftmodule
+*.swiftsourceinfo
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+Cartfile.resolved
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# AppCode
+.idea/
+
+# VSCode
+.vscode/
+
+# Local Swift Package Configuration
 .swiftpm/configuration/registries.json
-.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
-.netrc
+.swiftpm/config/registries.json
+
+# SwiftLint
+.swiftlintcache
+
+# Tuist
+.tuist-cache/
+
+# Per-user debug configuration
+*.lldbinit
+
+# SwiftUI Preview Devices
+Preview Devices/
+
+# macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.swp
+*~
+*.lock
+
+# Logs and diagnostics
+*.log
+*.trash
+
+# Local development environment files
+.env
+.env.local
+.env.*.local
+
+# Custom local files that should be ignored
+local.properties
+local.xcconfig
+
+# Documentation
+docs/_build/
+docs/.DS_Store
+
+# Test coverage reports
+*.profraw
+*.profdata
+coverage/
+*.gcda
+*.gcno
+
+# Benchmarking
+benchmark/build/
